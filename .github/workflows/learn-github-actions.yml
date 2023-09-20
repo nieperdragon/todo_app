@@ -12,3 +12,5 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: pwd
+      - run: cd ./src/webapp/api
+      - run: npm install
